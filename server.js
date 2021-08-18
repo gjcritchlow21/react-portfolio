@@ -3,6 +3,7 @@ require("dotenv").config();
 const express = require("express");
 const port = process.env.PORT || 5000;
 
+
 // const exphbs = require("express-handlebars");
 const cors = require("cors")
 const nodemailer = require("nodemailer");
@@ -19,7 +20,7 @@ app.use(express.json());
 app.use(cors())
 
 //static folder
-app.use(express.static("public"));
+app.use(express.static("build"));
 
 app.get("/src/components/contact/", (req, res) => {
   res.render("contactForm");
