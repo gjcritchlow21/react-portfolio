@@ -3,10 +3,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./contact.css";
 
-//image imports
-import email from "https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313209/email_oam8ln.png";
-import github from "https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313180/github_plfehf.png";
-import linkedin from "https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313223/linkedin1_g8sjvm.png";
 
 export default function Contact() {
   return (
@@ -20,18 +16,18 @@ export default function Contact() {
             <h1>Check Me Out!</h1>
             <div id="icon-container">
               <Link id="home-link" to={"/ContactForm"}>
-                <img className="buttons" src={email} id="email" alt="email" />
+                <img className="buttons" src="https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313209/email_oam8ln.png" id="email" alt="email" />
               </Link>
               <a href="https://www.linkedin.com/in/gjcritchlow32176/">
                 <img
                   className="buttons"
-                  src={linkedin}
+                  src="https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313223/linkedin1_g8sjvm.png"
                   id="linkedin"
                   alt="email"
                 />
               </a>
               <a href="https://github.com/gjcritchlow21">
-                <img className="buttons" src={github} id="github" alt="email" />
+                <img className="buttons" src="https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313180/github_plfehf.png" id="github" alt="email" />
               </a>
             </div>
           </div>

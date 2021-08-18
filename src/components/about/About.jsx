@@ -3,9 +3,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./about.css";
 
-//image imports
-import aboutPic from "https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313021/percyParade_xlpsjj.jpg";
-import aboutPic2 from "https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313034/happyPercy_ywhtgv.jpg";
 
 export default function About() {
   return (
@@ -19,7 +16,7 @@ export default function About() {
             <h1>About Me</h1>
             <div id="aboutMe">
               <div id="aboutMe-container">
-                <img id="aboutPic" src={aboutPic} alt="aboutPic" />
+                <img id="aboutPic" src="https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313223/linkedin1_g8sjvm.png" alt="aboutPic" />
                 <p>
                   Full Stack Web Developer navigating the myriad of coding
                   languages. Currently a teaching assistant and tutor with
@@ -35,7 +32,7 @@ export default function About() {
                   furballs, Batman super-fan, and new homeowner obsessed with
                   his lawn.
                 </p>
-                <img id="aboutPic" src={aboutPic2} alt="aboutPic2" />
+                <img id="aboutPic" src="https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313034/happyPercy_ywhtgv.jpg" alt="aboutPic2" />
               </div>
             </div>
           </div>

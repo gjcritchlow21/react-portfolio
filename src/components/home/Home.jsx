@@ -1,13 +1,13 @@
 import React from "react";
 import "./home.css";
 import { Link } from "react-router-dom";
-import Prof from "https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313026/GJHeadshot_pfvtq2.jpg";
+
 
 export default function Home() {
   return (
     <div id="home-container">
       <div id="info-container">
-        <img id="profPic" src={Prof} alt="profile-pic" />
+        <img id="profPic" src="https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313026/GJHeadshot_pfvtq2.jpg" alt="profile-pic" />
         <div id="prof-info">
           <div id="name">
             <h1>G.J. Critchlow</h1>
