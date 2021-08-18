@@ -16,7 +16,7 @@ export default function About() {
             <h1>About Me</h1>
             <div id="aboutMe">
               <div id="aboutMe-container">
-                <img id="aboutPic" src="https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313223/linkedin1_g8sjvm.png" alt="aboutPic" />
+                <img id="aboutPic" src="https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313021/percyParade_xlpsjj.jpg" alt="aboutPic" />
                 <p>
                   Full Stack Web Developer navigating the myriad of coding
                   languages. Currently a teaching assistant and tutor with
