@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import { Link } from "react-router-dom";
-import Prof from "../../images/GJHeadshot.jpg";
+import Prof from "https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313026/GJHeadshot_pfvtq2.jpg";
 
 export default function Home() {
   return (

@@ -5,7 +5,7 @@
   flex-direction: column;
   width: 100vw;
   height: 150vh;
-  background-image: url("../../images/fallPath.jpg");
+  background-image: url("https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313031/fallPath_wnlhsp.jpg");
   background-position: center;
   background-attachment: scroll;
   background-repeat: no-repeat;
@@ -105,7 +105,7 @@
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    background-image: url("../../images/fallPath.jpg");
+    background-image: url("https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313031/fallPath_wnlhsp.jpg");
     background-position: center;
     background-attachment: scroll;
     background-repeat: no-repeat;

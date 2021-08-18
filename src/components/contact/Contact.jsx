@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 import "./contact.css";
 
 //image imports
-import email from "../../images/email.png";
-import github from "../../images/github.png";
-import linkedin from "../../images/linkedin1.png";
+import email from "https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313209/email_oam8ln.png";
+import github from "https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313180/github_plfehf.png";
+import linkedin from "https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313223/linkedin1_g8sjvm.png";
 
 export default function Contact() {
   return (

@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import "./about.css";
 
 //image imports
-import aboutPic from "../../images/percyParade.jpg";
-import aboutPic2 from "../../images/happyPercy.jpg";
+import aboutPic from "https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313021/percyParade_xlpsjj.jpg";
+import aboutPic2 from "https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313034/happyPercy_ywhtgv.jpg";
 
 export default function About() {
   return (

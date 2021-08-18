@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 import "./projects.css";
 
 //image imports
-import guessCode from "../../images/guessCode.PNG";
-import guessCMDR from "../../images/guessCMDR.PNG";
-import zorkCode from "../../images/zorkCode.PNG";
-import ticTacToe from "../../images/ticTacToe.PNG";
-import ticCode from "../../images/ticCode.PNG";
-import RPS from "../../images/RPS.PNG";
-import RPSCode from "../../images/RPSCode.PNG";
+import guessCode from "https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313027/guessCode_dj7joo.png";
+import guessCMDR from "https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313023/guessCMDR_ykz792.png";
+import zorkCode from "https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313031/zorkCode_w1hmyo.png";
+import ticTacToe from "https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313030/ticTacToe_cn3txs.png";
+import ticCode from "https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313029/ticCode_fz42wk.png";
+import RPS from "https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313021/RPS_uf7rak.png";
+import RPSCode from "https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313027/RPSCode_ocryob.png";
 
 export default function Projects() {
   return (

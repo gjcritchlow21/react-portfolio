@@ -5,7 +5,7 @@
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  background-image: url("../../images/sunsetShore.jpg");
+  background-image: url("https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313031/sunsetShore_nvthjw.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100vw, 100vh;
@@ -73,7 +73,7 @@
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    background-image: url("../../images/sunsetShore.jpg");
+    background-image: url("https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313031/sunsetShore_nvthjw.jpg");
     background-position: center;
     background-size: 500vw;
   }
@@ -136,7 +136,7 @@
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  background-image: url("../../images/colchesterPond.jpg");
+  background-image: url("https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313022/colchesterPond_k6z1oh.jpg");
   background-position: center;
   background-attachment: scroll;
   background-repeat: no-repeat;
@@ -229,7 +229,7 @@
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    background-image: url("../../images/colchesterPond.jpg");
+    background-image: url("https://res.cloudinary.com/dpnhiv4hn/image/upload/v1629313022/colchesterPond_k6z1oh.jpg");
     background-position: center;
 
     background-size: 200vw;
