@@ -1,0 +1,10 @@
+/* ------Font Imports------- */
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&display=swap");
+
+/* -------Globals------- */
+body {
+  font-family: "Gowun Batang", serif;
+  margin: 0%;
+  padding: 0;
+  overflow-x: hidden;
+}

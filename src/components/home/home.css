@@ -1,0 +1,136 @@
+/* ------Home Page------- */
+#home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../images/shoreLine.jpg");
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: 100vw, 100vh;
+}
+
+#info-container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  width: 50vw;
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 2px;
+}
+
+#profPic {
+  width: auto;
+  height: 50vh;
+  border-radius: 2px;
+}
+
+#prof-info {
+  width: 30vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+#name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border-bottom: white solid 1px; */
+  text-align: center;
+}
+#line {
+  width: 20vw;
+  border-bottom: 1px white solid;
+}
+
+#link-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.home-links {
+  text-decoration: none;
+  color: white;
+}
+
+/* -----------Media Query--------------- */
+
+@media only screen and (max-width: 1169px) {
+  
+  #home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: 300vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  #info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 92vw;
+    height: 97vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+  }
+
+  #prof-info {
+    width: 30vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    /* color: rgb(0, 128, 198); */
+    font-family: "Gowun Batang", serif;
+  }
+
+  #profPic {
+    width: auto;
+    height: 57vh;
+    border-radius: 5px;
+  }
+
+  #line {
+    width: 50vw;
+    border-bottom: 1px white solid;
+  }
+
+  #name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #name h3 {
+    width: 75vw;
+    font-size: 3vh;
+  }
+
+  .home-links {
+    font-size: 1.75vh;
+  }
+
+  #link-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+}

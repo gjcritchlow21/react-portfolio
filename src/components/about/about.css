@@ -1,0 +1,162 @@
+/* ------About------- */
+
+#about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../images/indianBrookShore.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vw, 100vh;
+}
+
+#home-link-about {
+
+  justify-self: flex-start;
+  text-decoration: none;
+  color: white;
+}
+
+#home-link-about h1 {
+  padding-left: 10px;
+}
+
+#about-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  height: 85vh;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50vw;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+#aboutMe {
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+}
+
+#aboutMe-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#aboutMe-container p {
+  width: 30vw;
+}
+
+#aboutMe-container-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#aboutMe-container-two p {
+  width: 30vw;
+}
+
+#aboutPic {
+  width: 10vw;
+  border-radius: 2px;
+}
+
+/* ----------Media Query----------- */
+
+@media only screen and (max-width: 1169px) {
+  #about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../images/indianBrookShore.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400vw;
+  }
+
+  #media-container {
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    height: 97vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+  }
+
+  #home-link-1 {
+    align-self: flex-start;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 2vh;
+
+    height: 90vh;
+  }
+
+  #aboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #aboutMe-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+  }
+  
+  #about-wrapper {
+
+    height: 9;
+  }
+
+  #aboutMe-container p {
+    width: 90vw;
+  }
+
+  #aboutMe-container-two {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #aboutMe-container-two p {
+    width: 90vw;
+  }
+
+  #aboutPic {
+    width: 20vw;
+  }
+}
